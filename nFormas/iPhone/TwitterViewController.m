@@ -106,8 +106,9 @@
         cell = [array objectAtIndex:0];
     }
     
-    TwitterRssItem *item = (TwitterRssItem*) [items objectAtIndex:indexPath.row];
-    cell.tweetLabel.text = item.title;
+    NSDictionary *item = [items objectAtIndex:indexPath.row];
+    cell.tweetLabel.text = item[@"text"];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return cell;
 }

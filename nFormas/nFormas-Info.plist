@@ -35,7 +35,7 @@
 	<key>UILaunchImageFile~ipad</key>
 	<string>splash_screen.png</string>
 	<key>UILaunchImageFile~iphone</key>
-	<string>splash_screen.png</string>
+	<string>launch_image.png</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIRequiresPersistentWiFi</key>
